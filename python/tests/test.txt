@@ -1,0 +1,11 @@
+tst 1 //Determines if the variable 1 is zero and jumps accordingly
+jmp 4 //Jumps to line 4 if variable 1 is zero
+jmp 7 //Jumps to line 7 if variable 1 is zero
+dec 1 //Decrements variable 1
+inc 2 //Increments variable 2
+jmp 1 //Jumps to line 1
+hlt //Stops the program
+
+.data:
+1: 6
+2: 3
