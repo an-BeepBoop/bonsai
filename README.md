@@ -1,7 +1,6 @@
-
 # 🌱 Bonsai
 
-This repository contains interpreters for **Bonsai** — a minimal language based on a limited assembly instruction set known as **Bonsai Assembly**.
+This repository contains interpreters/compilers for **Bonsai** — a minimal language based on a limited assembly instruction set known as **Bonsai Assembly**.
 
 Bonsai Assembly consists of five core instructions:
 
@@ -36,5 +35,4 @@ hlt        // Terminate execution
 x: 6  
 y: 3
 ```
-
 

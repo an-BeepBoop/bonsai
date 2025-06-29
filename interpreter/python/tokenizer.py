@@ -1,5 +1,5 @@
 import re
-from tokens import TokenType, Token
+from tokens import TokenType, Token, IllegalTokenException
 
 class Tokeniser:
     def __init__(self, text):
