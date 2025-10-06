@@ -15,6 +15,8 @@ class Tokeniser:
             return
 
         # RegEx and their TokenType
+        # For effiency reasons ideally we would build a minimal DFA, or use a lexer generator
+        # but I prefer to handwrite it here
         patterns = [
             (r'^INC\b', TokenType.INC),
             (r'^DEC\b', TokenType.DEC),
